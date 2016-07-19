@@ -3,6 +3,7 @@ package jun.yu.maven.test.PowerMockito;
 public class Human {
     public String name;
     public int age;
+    public String address;
     public Puppy puppy;
 
     public Human(String name) {
@@ -34,5 +35,13 @@ public class Human {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
