@@ -23,7 +23,7 @@ public void setup() throws Exception {
     calc = new IncomeCalculator();    
 }
 
-@Test
+@Test(groups={"function"})
 public void testCalc1(){
     expect(calcMethod.calc(Position.BOSS)).andReturn(7000.00).times(2);
     expect(calcMethod.calc(Position.PROGRAMMER)).andReturn(5000.00);

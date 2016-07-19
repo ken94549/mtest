@@ -2,6 +2,7 @@ package jun.yu.maven.test.PowerMockito;
 
 public class Human {
     public String name;
+    public int age;
     public Puppy puppy;
 
     public Human(String name) {
@@ -25,5 +26,13 @@ public class Human {
 
     public void isSoHappy() {
         System.out.println("Yay!");
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }

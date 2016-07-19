@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
     
 public class StudyGroupTest {
-    @Test
+    @Test(groups={"function"})
     public void testStudyGroupClass() {
         // prepare the data for test
         final List<Student> testStudents = new ArrayList<Student>();
