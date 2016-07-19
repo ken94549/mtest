@@ -1,5 +1,7 @@
 package jun.yu.maven.test.PowerMockito;
 
+import static org.junit.Assert.fail;
+
 import org.testng.annotations.Test;
 
 public class HumanTest {
@@ -7,5 +9,12 @@ public class HumanTest {
   public void testHuman() {
       Human john = new Human("John");
       //john.buyPuppy("Gatsby");
+  }
+  
+  @Test
+  public void testAge() {
+      Human john = new Human("John");
+      john.setAge(10);
+      john.getAge();
   }
 }
