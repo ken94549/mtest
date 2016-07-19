@@ -22,5 +22,6 @@ public class HumanTest {
   public void testAddress() {
       Human john = new Human("John");
       john.setAddress("san francisco");
+      john.getAddress();
   }
 }

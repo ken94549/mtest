@@ -1,13 +1,13 @@
 package jun.yu.maven.test.PowerMockito;
 
 public class Human {
-    public String name;
+    public String name1;
     public int age;
     public String address;
     public Puppy puppy;
 
-    public Human(String name) {
-        this.name = name;
+    public Human(String name1) {
+        this.name1 = name1;
     }
 
     public void buyPuppy(String name){
