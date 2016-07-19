@@ -17,4 +17,10 @@ public class HumanTest {
       john.setAge(10);
       john.getAge();
   }
+  
+  @Test
+  public void testAddress() {
+      Human john = new Human("John");
+      john.setAddress("san francisco");
+  }
 }
