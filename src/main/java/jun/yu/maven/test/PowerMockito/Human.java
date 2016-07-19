@@ -2,7 +2,7 @@ package jun.yu.maven.test.PowerMockito;
 
 public class Human {
     public String name1;
-    public int age;
+    public int age1;
     public String address;
     public Puppy puppy;
 
@@ -30,11 +30,11 @@ public class Human {
     }
 
     public int getAge() {
-        return age;
+        return age1;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age1) {
+        this.age1 = age1;
     }
 
     public String getAddress() {
