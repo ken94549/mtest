@@ -4,20 +4,20 @@ import static org.easymock.EasyMock.createNiceMock;
 import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.replay;
 import static org.easymock.EasyMock.verify;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
+import static org.testng.Assert.assertEquals;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
 import jun.yu.maven.test.easymock.ICalcMethod;
 import jun.yu.maven.test.easymock.IncomeCalculator;
 import jun.yu.maven.test.easymock.Position;
-
-import org.junit.Before;
-import org.junit.Test;
 
 public class IncomeCalculatorTest {
 private ICalcMethod calcMethod;
 private IncomeCalculator calc;
 
-@Before
+@BeforeClass
 public void setup() throws Exception {
     calcMethod = createNiceMock(ICalcMethod.class);
     calc = new IncomeCalculator();    
