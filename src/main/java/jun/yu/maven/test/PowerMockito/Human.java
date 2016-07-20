@@ -45,4 +45,12 @@ public class Human {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
 }

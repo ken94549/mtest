@@ -24,4 +24,11 @@ public class HumanTest {
       john.setAddress("san francisco");
       john.getAddress();
   }
+  
+  @Test
+  public void testTelephone() {
+      Human john = new Human("John");
+      john.setTelephone("925");
+      john.getTelephone();
+  }
 }
