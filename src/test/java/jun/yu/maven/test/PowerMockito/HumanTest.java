@@ -31,4 +31,9 @@ public class HumanTest {
       john.setTelephone("925");
       john.getTelephone();
   }
+  @Test
+  public void testAddress2() {
+      Human john = new Human("John");
+      john.setAddress2("san francisco");
+  }
 }
