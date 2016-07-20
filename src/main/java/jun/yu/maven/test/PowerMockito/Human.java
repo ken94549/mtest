@@ -4,6 +4,7 @@ public class Human {
     public String name;
     public int age1;
     public String telephone;
+    public String address2;
     public String address;
     public Puppy puppy;
 
@@ -52,5 +53,13 @@ public class Human {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    public String getAddress2() {
+        return address2;
+    }
+
+    public void setAddress2(String address2) {
+        this.address2 = address2;
     }
 }
