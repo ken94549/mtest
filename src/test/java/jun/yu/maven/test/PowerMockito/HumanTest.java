@@ -25,7 +25,7 @@ public class HumanTest {
       john.getAddress();
   }
   
-  @Test
+  @Test(enabled=false)
   public void testTelephone() {
       Human john = new Human("John");
       john.setTelephone("925");
