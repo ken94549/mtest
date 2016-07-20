@@ -3,6 +3,7 @@ package jun.yu.maven.test.PowerMockito;
 public class Human {
     public String name1;
     public int age1;
+    public String telephone;
     public String address;
     public Puppy puppy;
 
