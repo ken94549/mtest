@@ -60,6 +60,7 @@ public class Human {
     }
 
     public void setAddress2(String address2) {
+        System.out.println(address2);
         this.address2 = address2;
     }
 }
