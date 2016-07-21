@@ -4,8 +4,8 @@ public class Human {
     public String name;
     public int age1;
     public String telephone;
-    public String address3;
     public String address2;
+    public String address3;
     public String address;
     public Puppy puppy;
 
