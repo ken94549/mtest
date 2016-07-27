@@ -5,6 +5,7 @@ public class Student {
     private int id;
     private String name;
     private String address;
+    private String address2;
     private int score;
     
     public Student(int id, String name, int score,String address) {
