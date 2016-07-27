@@ -11,9 +11,9 @@ public class StudyGroupTest {
     public void testStudyGroupClass() {
         // prepare the data for test
         final List<Student> testStudents = new ArrayList<Student>();
-        testStudents.add(new Student(1, "Student No.1", 60));
-        testStudents.add(new Student(2, "Student No.2", 70));
-        testStudents.add(new Student(3, "Student No.2", 80));
+        testStudents.add(new Student(1, "Student No.1", 60, "address1"));
+        testStudents.add(new Student(2, "Student No.2", 70,"address1"));
+        testStudents.add(new Student(3, "Student No.2", 80,"address1"));
         
         // Start the unit test
         final StudyGroup testGroup = new StudyGroup();
