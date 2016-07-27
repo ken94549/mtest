@@ -64,4 +64,12 @@ public class Human {
         System.out.println(address2);
         this.address2 = address2;
     }
+
+    public String getAddress3() {
+        return address3;
+    }
+
+    public void setAddress3(String address3) {
+        this.address3 = address3;
+    }
 }
