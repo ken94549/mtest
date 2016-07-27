@@ -1,6 +1,7 @@
 package jun.yu.code.coverage.jacocotest;
 
 public class Student {
+    //add comment to id field
     private int id;
     private String name;
     private int score;
