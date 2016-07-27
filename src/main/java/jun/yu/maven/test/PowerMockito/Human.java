@@ -7,6 +7,7 @@ public class Human {
     public String address2;
     public String address3;
     public String address;
+    private String address4;
     public Puppy puppy;
 
     public Human(String name1) {
