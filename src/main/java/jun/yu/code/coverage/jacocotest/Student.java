@@ -33,4 +33,12 @@ public class Student {
     public String getAddress2(){
         return address2;
     }
+
+    public String getAddress3() {
+        return address3;
+    }
+
+    public void setAddress3(String address3) {
+        this.address3 = address3;
+    }
 }
