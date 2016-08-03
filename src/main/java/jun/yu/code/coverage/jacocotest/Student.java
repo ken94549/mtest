@@ -2,6 +2,7 @@ package jun.yu.code.coverage.jacocotest;
 
 public class Student {
     //add comment to id field
+	// add comment by Ken
     private int id;
     private String name;
     private String address;
