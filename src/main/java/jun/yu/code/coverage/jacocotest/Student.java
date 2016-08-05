@@ -7,6 +7,7 @@ public class Student {
     private String address;
     private String address2;
     private String address3;
+    private String address4;
     private int score;
     
     public Student(int id, String name, int score,String address) {
