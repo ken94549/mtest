@@ -7,6 +7,8 @@ public class Student {
     private String name;
     private String address;
     private String address2;
+    private String address3;
+    private String address4;
     private int score;
     
     public Student(int id, String name, int score,String address) {
@@ -32,5 +34,13 @@ public class Student {
     }
     public String getAddress2(){
         return address2;
+    }
+
+    public String getAddress3() {
+        return address3;
+    }
+
+    public void setAddress3(String address3) {
+        this.address3 = address3;
     }
 }

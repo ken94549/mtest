@@ -1,6 +1,6 @@
 package jun.yu.maven.test.PowerMockito;
 
-public class Human {
+public class Human2 {
     public String name;
     public int age1;
     public String telephone;
@@ -10,12 +10,8 @@ public class Human {
     private String address4;
     public Puppy puppy;
 
-    public Human(String name1) {
+    public Human2(String name1) {
         this.name = name1;
-    }
-
-    public void buyPuppy(String name){
-        puppy = Puppy.createPuppy(name, this);
     }
 
     public void walkWithPuppy() {
@@ -23,8 +19,7 @@ public class Human {
     }
 
     public static void main(String[] args) {
-        Human john = new Human("John");
-        john.buyPuppy("Gatsby");
+        Human2 john = new Human2("John");
         john.puppy.performPuppyTasks();
         john.walkWithPuppy();
     }
@@ -41,7 +36,7 @@ public class Human {
         this.age1 = age1;
     }
 
-    public String getAddress() {
+    public String getMyAddress() {
         return address;
     }
 
