@@ -9,6 +9,7 @@ public class Human2Test {
   public void testHuman() {
       Human2 john = new Human2("John");
       //john.buyPuppy("Gatsby");
+      //add comments
   }
   
   @Test
