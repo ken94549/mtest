@@ -13,4 +13,18 @@ public class Home {
     public String getName(){
         return name;
     }
+    
+    public void setName(String name)
+    {
+    	this.name=name;
+    }
+    
+    public void setAddress(String address1)
+    {
+    	this.address1=address1;
+    }
+    
+    public String getAddress(){
+        return address1;
+    }
 }

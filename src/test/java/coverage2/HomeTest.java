@@ -10,6 +10,10 @@ public class HomeTest {
     @Test(groups={"function"})
     public void testHome() {
         Home home = new Home("my home", "619");
-}
+        String address=home.getAddress();
+        String name=home.getName();
+        home.setName(name);
+        home.setAddress(address);
+    }
 
 }
