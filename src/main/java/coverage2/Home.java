@@ -9,6 +9,15 @@ public class Home {
         this.address1=address1;
     }
 
+    public Home(){
+    	reset();
+    }
+    
+    public void reset(){
+        this.name="";
+        this.address1="";
+    }
+
     //add comments
     public String getName(){
         return name;
