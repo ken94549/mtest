@@ -9,18 +9,18 @@ public class Home {
         this.address1=address1;
     }
 
-    //add comments
+    //add comments uuuu
     public Home(){
     	reset();
     }
     
-    //add comments
+    //add comments yyyy
     public void reset(){
         this.name="";
         this.address1="";
     }
 
-    //add comments
+    //add comments ttt
     public String getName(){
         return name;
     }
