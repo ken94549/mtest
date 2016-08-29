@@ -9,10 +9,12 @@ public class Home {
         this.address1=address1;
     }
 
+    //add comments
     public Home(){
     	reset();
     }
     
+    //add comments
     public void reset(){
         this.name="";
         this.address1="";
