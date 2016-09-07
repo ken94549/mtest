@@ -3,6 +3,7 @@ package coverage2;
 public class Home {
     private String name;
     private String address1;
+    private String city;
     
     public Home(String name,String address1){
         this.name=name;
@@ -37,5 +38,14 @@ public class Home {
     
     public String getAddress(){
         return address1;
+    }
+    
+    public String getCity(){
+        return city;
+    }
+    
+    public void setCity(String city)
+    {
+    	this.city=city;
     }
 }

@@ -13,6 +13,7 @@ public class HomeTest {
         String name=home.getName();
         home.setName(name);
         home.setAddress(address);
+        home.setCity("SF");
     }
 
 }
