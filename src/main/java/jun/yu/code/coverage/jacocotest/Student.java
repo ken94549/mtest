@@ -59,8 +59,13 @@ public class Student {
         return zip;
     }
     
-    public void setZip(String zip)
+    //add State methods
+    public String getState(){
+        return state;
+    }
+    
+    public void setState(String state)
     {
-    	this.zip=zip;
+    	this.state=state;
     }
 }

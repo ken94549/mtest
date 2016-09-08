@@ -4,6 +4,7 @@ public class Home {
     private String zip;
     private String address1;
     private String city;
+    private String state;
     
     public Home(String city, String address1, String zip){
         this.city=city;
@@ -21,16 +22,12 @@ public class Home {
         this.city="";
         this.address1="";
         this.zip="";
+        this.state="";
     }
 
     //add zip methods
     public String getZip(){
         return zip;
-    }
-    
-    public void setZip(String zip)
-    {
-    	this.zip=zip;
     }
     
     public void setAddress(String address1)
@@ -51,5 +48,15 @@ public class Home {
     {
     	this.city=city;
     }
-
+    
+    //add State methods
+    public String getState(){
+        return state;
+    }
+    
+    public void setState(String state)
+    {
+    	this.state=state;
+    }
+    
 }

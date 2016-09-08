@@ -11,7 +11,7 @@ public class HomeTest {
         Home home = new Home("SF", "619", "94111");
         String address=home.getAddress();
         String city=home.getCity();
-        home.setZip("94123");
+        home.setState("CA");
         home.setAddress(address);
         home.setCity(city);
     }

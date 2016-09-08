@@ -10,7 +10,7 @@ public class StudentTest {
     	Student home = new Student(1, "James", 619, "94111");
         String address=home.getAddress();
         String city=home.getCity();
-        home.setZip("94123");
+        home.setState("94123");
         home.setAddress(address);
         home.setCity(city);
     }
