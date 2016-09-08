@@ -1,13 +1,14 @@
 package coverage2;
 
 public class Home {
-    private String name;
+    private String zip;
     private String address1;
     private String city;
     
-    public Home(String name,String address1){
-        this.name=name;
+    public Home(String city, String address1, String zip){
+        this.city=city;
         this.address1=address1;
+        this.zip=zip;
     }
 
     //add comments uuuu
@@ -17,18 +18,19 @@ public class Home {
     
     //add comments yyyy
     public void reset(){
-        this.name="";
+        this.city="";
         this.address1="";
+        this.zip="";
     }
 
-    //add comments ttt
-    public String getName(){
-        return name;
+    //add zip methods
+    public String getZip(){
+        return zip;
     }
     
-    public void setName(String name)
+    public void setZip(String zip)
     {
-    	this.name=name;
+    	this.zip=zip;
     }
     
     public void setAddress(String address1)
@@ -40,6 +42,7 @@ public class Home {
         return address1;
     }
     
+    //add city methods
     public String getCity(){
         return city;
     }
@@ -48,4 +51,5 @@ public class Home {
     {
     	this.city=city;
     }
+
 }

@@ -1,14 +1,13 @@
-package coverage2;
+package jun.yu.code.coverage.jacocotest;
 
 import org.testng.annotations.Test;
+import jun.yu.code.coverage.jacocotest.Student;
 
-import coverage2.Home;
-    
-public class HomeTest {
-    
+public class StudentTest {
+	
     @Test(groups={"function"})
-    public void testHome() {
-        Home home = new Home("SF", "619", "94111");
+    public void testStudent() {
+    	Student home = new Student(1, "James", 619, "94111");
         String address=home.getAddress();
         String city=home.getCity();
         home.setZip("94123");

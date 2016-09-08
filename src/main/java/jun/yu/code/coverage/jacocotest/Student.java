@@ -7,6 +7,9 @@ public class Student {
     private String name;
     private String address;
     private String address2;
+    private String city;
+    private String zip;
+    private String state;
     private int score;
     
     public Student(int id, String name, int score,String address) {
@@ -27,10 +30,37 @@ public class Student {
     public int getScore() {
         return score;
     }
+    
     public String getAddress(){
         return address;
     }
+    
+    public void setAddress(String address)
+    {
+    	this.address=address;
+    }
+    
     public String getAddress2(){
         return address2;
+    }
+    
+    //add city methods
+    public String getCity(){
+        return city;
+    }
+    
+    public void setCity(String city)
+    {
+    	this.city=city;
+    }
+    
+    //add zip methods
+    public String getZip(){
+        return zip;
+    }
+    
+    public void setZip(String zip)
+    {
+    	this.zip=zip;
     }
 }
