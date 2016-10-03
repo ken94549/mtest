@@ -53,7 +53,7 @@ public class Home {
     public String getState(){
         return state;
     }
-    //add comment for testing....
+    //add comment for testing ......
     public void setState(String state)
     {
     	this.state=state;
